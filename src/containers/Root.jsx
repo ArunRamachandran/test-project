@@ -12,6 +12,7 @@ export const Root = () => {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={HomeView} />
+                    <Route exact path="/abc" component={HomeView} />
                 </Switch>
             </BrowserRouter>
         </div>
